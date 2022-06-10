@@ -1,0 +1,60 @@
+:root{
+    --clr-dark: rgb(243, 8, 8);
+    --clr-white: rgb(181, 188, 194);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Numito' , sans-serif;
+    color: var(--clr-dark) !important;
+}
+
+.nav-link{
+    font-weight: 100;
+    font-size: 0.875rem;
+}
+
+.nav-link.active,
+.navbar-brand {
+    color: var(--clr-dark) !important;
+}
+
+.main-header{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--clr-dark);
+}
+
+@media (min-width: 576px) {
+    .main-header{
+        font-size: 4rim;
+    }
+}
+
+.text-content {
+    letter-spacing: 0.002rem;
+    font-size: 0.875rem;
+    color: var(--clr-dark)
+}
+
+.my-photo{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem ;
+    -ms-border-radius: 1rem ;
+    -o-border-radius: 1rem ;
+}
+
+.section-header{
+    font-weight: bold;
+    color: var(--clr-dark);
+}
+
+.card{
+    border: none;
+    box-shadow: 0 1rem 3rem rgba(145, 145, 145, 0.175) !important;
+}
